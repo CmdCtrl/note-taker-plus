@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.prompt-container {
+    display: flex;
+    font-size: 2em;
+    flex-direction: column;
+    text-align: center;
+}
+
+#note-text {
+    width: 16%;
+    height: 10em;
+}
+
+#note-text, #add-btn {
+    margin: auto;
+    margin-top: 5px;
+}
+
+.note-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin: 2%;
+}
+
+.note {
+    border: solid 2px;
+    width: 15.66%;
+    margin-bottom: 1%;
+    overflow: hidden;
+    max-height: 10rem;
+}
+
+.note:hover {
+    overflow: auto;
+    max-height: max-content;
+}
+
+.note-delete, .note-edit {
+    float: right;
+    font-size: 1rem;
+    cursor: pointer;
+    padding-right: 3px;
+    margin-top: 2px;
+}
+
+.note-body {
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.onclick {
+    border-color: red;
+}
